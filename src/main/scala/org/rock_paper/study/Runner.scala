@@ -67,8 +67,8 @@ object Runner {
   def evaluateCommandLine(args: Array[String]){
     if (args.length < 6) {
       logger.error("Invalid number of parameters")
-      System.err.println("Usage: Travel Agency Data <booking file name> " +
-        "<hotel file name> <customer file name> <metricA file name> <metricB file name> <metricC file name>")
+      System.err.println("Usage: Travel Agency Data <sales file name> " +
+        "<complaint file name> <production file name> <metricA file name> <metricB file name> <metricC file name>")
       System.exit(1)
     }
   }
